@@ -1,5 +1,5 @@
 -- DROP DATABASE
-DROP DATABASE IF EXISTS datingblog_db;
+DROP DATABASE IF EXISTS dating_blog_db;
 
 -- CREATE DATABASE
-CREATE DATABASE datingblog_db;
+CREATE DATABASE dating_blog_db;
