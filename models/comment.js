@@ -28,6 +28,7 @@ Comment.init(
       },
     },
     comment_text: {
+      // string limits to 255 characters, so we chose text because it can allow a longer comment
       type: DataTypes.TEXT,
       allowNull: false,
     },
