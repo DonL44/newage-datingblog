@@ -26,26 +26,23 @@ User.init(
       allowNull: false,
       unique: true,
     },
-    // /* DON - do we need twitter and github for this one? */
-    // twitter: {
-    //   type: DataTypes.STRING,
-    //   allowNull: true,
-    // },
-    // github: {
-    //   type: DataTypes.STRING,
-    //   allowNull: true,
-    // },
-    // define an email column
-    /* 
-// DON - do we need to capture email addresses?
-email: {
+    twitter: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    github: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+
+    email: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
       validate: {
         isEmail: true,
-      }, */
-    // },
+      },
+    },
     // define a password column
     password: {
       type: DataTypes.STRING,
