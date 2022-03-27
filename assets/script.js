@@ -1,7 +1,6 @@
 var createPostBtn = document.getElementById('create-new-post');
 var submitPostBtn = document.getElementById('post-button');
 const postClone = document.getElementById('posts');
-var timeStamp = Date.now();
 
 createPostBtn.onclick = function() {
     document.getElementById('new-post').style.display = "block";
@@ -18,4 +17,6 @@ function submitNewPost() {
     var clone = postClone.cloneNode(true);
     clone.classList.add = 'post';
     document.body.appendChild(clone);
+    var dt = new Date();
+    document.getElementById('dateTime').innerHTML=dt;
 }
