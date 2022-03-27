@@ -1,0 +1,8 @@
+:root {
+    --light-grey: #C9C6C4;
+    --eggshell: #FEF9F0;
+    --pink: #FAC0B3;
+    --blue: #26979F;
+    --light-blue: #C8F0EF;
+    --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
