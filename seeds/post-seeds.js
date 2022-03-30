@@ -10,14 +10,14 @@ const postData = [
   {
     title: 'Dating Myths',
     post_content:
-      'Is it socially acceptable to go dutch on dates? Are men expected to pay on dates. Whats considered to much; politics, finances, religion, etc when on dates? Whats normal as far acceptable behavior when it comes to baby mommas and baby daddies?',
+      'Is it socially acceptable to go dutch on dates? Are men expected to pay on dates or whoever idea it was to go out? Whats considered to much for conversational pieces; politics, finances, religion, etc when on dates? Whats normal as far acceptable behavior when it comes to your partners baby momma/daddy?',
     user_id: 1,
   },
   {
     title:
       'How long should someone take after a long-term relationship to be to themselves?',
     post_content:
-      "If I was in a 6-8 year relationship/marriage but for the last two years I've drifting away mentally and emotionally if I was to live right now would it be normal/healthy for me to start dating today? How do I know how long I need to be to myself if I've never been in this situation before",
+      "If I was in a 6-8 year relationship/marriage but for the last two years I've been drifting away mentally and emotionally if I was to leave right now would it be normal/healthy for me to start dating today? How would I know how long I need to be to myself if I've never been in this situation before",
     user_id: 2,
   },
   {
