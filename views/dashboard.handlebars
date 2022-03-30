@@ -4,11 +4,11 @@
         <h2 class="title pb-4">Dashboard: Your Posts</h2><hr><br><br>
 {{#if posts.length}}
     </div>
-
+    <div id="post-div">
     {{#each posts as |post|}}
         {{> post-info post}}
         
-            <a href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5 is-warning">edit post</button></a>
+            <a id="edit-btn" href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5 is-warning">Edit Post</button></a>
         </div>
     {{/each}}
 

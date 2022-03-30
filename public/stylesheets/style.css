@@ -45,14 +45,37 @@
     padding-left: 3%;
   }
 
-  .signup-container, .comment-container {
+  .signup-container, .comment-container, .edit-container {
     margin: auto;
-    width: 30%;
+    width: 40%;
     text-align: center;
+  }
+
+  .edit-container {
+    height: 300px;
+    margin-bottom: 50px;
+    width: 30%;
   }
 
   .new-post-container {
     width: 25%;
+  }
+
+  #post-info {
+    float: left;
+  }
+
+  #post-div {
+
+  }
+
+  #edit-btn {
+    text-decoration: none;
+  }
+
+  #submit-edit-btn, #delete-post-btn {
+    text-align: center;
+    margin-left: 35%;
   }
 
   #post-content, #post-title {
@@ -60,7 +83,7 @@
     width: 300px;
   }
 
-  #post-content {
+  #post-content, .edit-content {
     height: 150px;
     margin-bottom: 50px;
   }
