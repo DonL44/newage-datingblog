@@ -1,0 +1,30 @@
+<section>
+  <h2 class='title'>Create New Blog Post</h2><br><br>
+  <a href='/dashboard' class='is-pulled-right'> &larr; back to dashboard</a>
+  <div class="new-post-container">
+    <form class='new-post-form'>
+      <div>
+        <label for='post-title'><strong>Title:</strong></label>
+        <input
+          class='input'
+          type='text'
+          id='post-title'
+          name='post-title'
+          placeholder='insert blog title here'
+        />
+      </div><br><br>
+      <div>
+        <label for='post-content'><strong>Content:</strong></label>
+        <input
+          class='textarea is-large'
+          id='post-content'
+          name='post-content'
+          placeholder='insert blog content here'
+        />
+      </div><br><br>
+      <button id="create-post-btn" type='submit' class='button is-primary is-pulled-right'>Create Post</button>
+    </form>
+  </div>  
+</section>
+
+<script src='/javascript/add-post.js'></script>

@@ -4,16 +4,18 @@
   "description": "New Age dating, exploring dating myths. Comparing modern dating with tradional dating.",
   "main": "server.js",
   "scripts": {
-    "test": "test",
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DonL44/project2-group2.git"
   },
   "keywords": [
-    "blog",
-    "dating"
+    "dating",
+    "blog"
   ],
   "author": "Paul, Don, Melissa, Alex",
   "license": "ISC",
@@ -23,10 +25,21 @@
   "homepage": "https://github.com/DonL44/project2-group2#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bulma": "^0.9.3",
+    "connect-session-sequelize": "^6.1.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
     "handlebars": "^4.7.7",
+    "memorystore": "^1.6.7",
     "mysql2": "^2.3.3",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
     "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "jest": "^27.5.1"
   }
 }

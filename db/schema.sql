@@ -3,3 +3,5 @@ DROP DATABASE IF EXISTS dating_blog_db;
 
 -- CREATE DATABASE
 CREATE DATABASE dating_blog_db;
+
+
