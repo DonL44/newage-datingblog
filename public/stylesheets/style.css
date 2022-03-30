@@ -60,13 +60,14 @@
   .new-post-container {
     width: 25%;
   }
+  
+  #comment-text-field {
+    width: 50%;
+    height: 200px;
+  }
 
   #post-info {
     float: left;
-  }
-
-  #post-div {
-
   }
 
   #edit-btn {

@@ -3,11 +3,12 @@
 
 <!-- displaying form and comments-->
 <!-- only display if logged in -->
+{{> comments post.comments}}
 {{#if loggedIn}}
 <div class="comment-container">
   <form class="comment-form">
     <div>
-      <textarea class="ml-5" name="comment-body"></textarea>
+      <textarea id='comment-text-field' class="ml-5" name="comment-body"></textarea>
     </div>
 
     <div>
@@ -18,7 +19,7 @@
 </div>  
 {{/if}}
 
-{{> comments post.comments}}
+
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
