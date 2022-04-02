@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const bcrypt = require('bcryptjs');
+const bcryptjs = require('bcryptjs');
 
 // create our User model
 class User extends Model {
@@ -26,14 +26,14 @@ User.init(
       allowNull: false,
       unique: true,
     },
-    twitter: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-    github: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
+    // twitter: {
+    //   type: DataTypes.STRING,
+    //   allowNull: true,
+    // },
+    // github: {
+    //   type: DataTypes.STRING,
+    //   allowNull: true,
+    // },
 
     email: {
       type: DataTypes.STRING,
