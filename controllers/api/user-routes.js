@@ -1,12 +1,11 @@
 const router = require('express').Router();
-const db = require('../../models');
-// const  User, Post, Comment  = require('../../models');
+const { User, Post, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET /api/users
 router.get('/', (req, res) => {
   // Access our User model and run .findAll() method
-  db.User.findAll({
+  User.findAll({
     attributes: { exclude: ['password'] },
   })
     .then((dbUserData) => res.json(dbUserData))
@@ -18,21 +17,21 @@ router.get('/', (req, res) => {
 
 // GET /api/users/1
 router.get('/:id', (req, res) => {
-  db.User.findOne({
+  User.findOne({
     attributes: { exclude: ['password'] },
     where: {
       id: req.params.id,
     },
     include: [
       {
-        model: db.Post,
+        model: Post,
         attributes: ['id', 'title', 'post_content', 'created_at'],
       },
       {
-        model: db.Comment,
+        model: Comment,
         attributes: ['id', 'comment_text', 'created_at'],
         include: {
-          model: db.Post,
+          model: Post,
           attributes: ['title'],
         },
       },
@@ -53,7 +52,7 @@ router.get('/:id', (req, res) => {
 
 // POST /api/users
 router.post('/', (req, res) => {
-  db.User.create({
+  User.create({
     username: req.body.username,
     email: req.body.email,
     password: req.body.password,
@@ -74,7 +73,7 @@ router.post('/', (req, res) => {
 
 // LOGIN
 router.post('/login', (req, res) => {
-  db.User.findOne({
+  User.findOne({
     where: {
       email: req.body.email,
     },
@@ -116,7 +115,7 @@ router.post('/logout', (req, res) => {
 
 // PUT /api/users/1
 router.put('/:id', withAuth, (req, res) => {
-  db.User.update(req.body, {
+  User.update(req.body, {
     individualHooks: true,
     where: {
       id: req.params.id,
@@ -137,7 +136,7 @@ router.put('/:id', withAuth, (req, res) => {
 
 // DELETE /api/users/1
 router.delete('/:id', withAuth, (req, res) => {
-  db.User.destroy({
+  User.destroy({
     where: {
       id: req.params.id,
     },
