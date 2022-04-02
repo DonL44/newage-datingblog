@@ -6,9 +6,14 @@ Dating has changed dramatically in the last few years, and this has only acceler
 
 New Age Dating is a Quora-style question and answer site where users can post relationship questions and comment on questions raised by others. </br>
 
+## Links
+
+Github Repository: https://github.com/DonL44/newage-datingblog </br>
+Deployed Heroku: https://group-2-new-age-dating.herokuapp.com/
+
 ## User Story
 
-DEAR ABBY: DATING IN THE NEW AGE
+NEW AGE DATING
 
 WHEN I visit the site for the first time</br>
 THEN I am presented with the homepage, which includes existing questions that have previously been posted along with the option to log in</br>
@@ -32,6 +37,8 @@ WHEN I click on one of my existing questions in the dashboard</br>
 THEN I am able to delete or update my post and taken back to an updated dashboard</br>
 WHEN I click on the logout option I am signed out of the site</br>
 
-## Links
+![group-2-new-age-dating herokuapp com](https://user-images.githubusercontent.com/90969624/161394195-c397e213-6c54-4c66-bd84-ad9be9a3ae84.png)
 
-Github Repository: https://github.com/DonL44/newage-datingblog </br>
+## Contributors
+
+Alex Fields, Don Looney, Melissa Moreno, and Paul Nelson
