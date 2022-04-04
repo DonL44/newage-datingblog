@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "New Age dating, exploring dating myths. Comparing modern dating with tradional dating.",
   "main": "server.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
+    "start": "nodemon --exec babel-node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },

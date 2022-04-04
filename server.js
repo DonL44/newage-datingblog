@@ -16,6 +16,7 @@ const MemoryStore = require('memorystore')(session);
 
 const app = express();
 const PORT = process.env.PORT || 3002;
+let port = process.env.PORT || 3002;
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
