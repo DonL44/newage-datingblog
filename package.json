@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "nodemon --exec babel-node server.js",
-    "watch": "nodemon server.js",
+    "start": "node server.js",
+    // "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
