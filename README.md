@@ -1,5 +1,16 @@
 # Project 2: New Age Dating
 
+## Elevator Pitch
+
+Dating has changed dramatically in the last few years, and this has only accelerated the last couple years following the pandemic. </br>
+
+New Age Dating is a Quora-style question and answer site where users can post relationship questions and comment on questions raised by others. </br>
+
+## Links
+
+Github Repository: https://github.com/DonL44/newage-datingblog/tree/dons </br>
+Deployed Heroku: https://newage-datingblog.herokuapp.com/
+
 ## User Story
 
 DEAR ABBY: DATING IN THE NEW AGE
@@ -35,3 +46,17 @@ WHEN I click on one of my existing questions in the dashboard
 THEN I am able to delete or update my post and taken back to an updated dashboard
 WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
+
+## Screenshot
+This is a screenshot of the generated HTML webpage.
+
+![New-Age-Dating Webpage Screenshot](public\images\new-age-dating.png)
+
+## Walkthrough Video
+![New-Age-Dating Walkthrough Video](public\images\dating-forum-demo.gif)
+<br> 
+Or view link here - [Screencastify](https://drive.google.com/file/d/12ria9JJ8YoEhdjWiUlAK6x_xjkOpMr-Z/view)
+
+## Contributors
+
+Alex Fields, Don Looney, Melissa Moreno, and Paul Nelson
