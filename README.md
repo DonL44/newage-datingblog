@@ -59,4 +59,4 @@ Or view link here - [Screencastify](https://drive.google.com/file/d/12ria9JJ8YoE
 
 ## Contributors
 
-Alex Fields, Don Looney, Melissa Moreno, and Paul Nelson
+[Alex Fields](https://github.com/fieldsba), [DonL](https://github.com/DonL44), [Melissa Moreno](https://github.com/mets0811), and [Paul Nelson](https://github.com/comcel1)
