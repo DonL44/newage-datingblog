@@ -50,10 +50,10 @@ THEN I am signed out of the site
 ## Screenshot
 This is a screenshot of the generated HTML webpage.
 
-![New-Age-Dating Webpage Screenshot](public\images\new-age-dating.png)
+![New-Age-Dating Webpage Screenshot](https://github.com/DonL44/newage-datingblog/blob/7ff60c82b32628a0c84e5fdf44f333ad0a91036c/public/images/new-age-dating.png)
 
 ## Walkthrough Video
-![New-Age-Dating Walkthrough Video](public\images\dating-forum-demo.gif)
+![New-Age-Dating Walkthrough Video](https://github.com/DonL44/newage-datingblog/blob/7ff60c82b32628a0c84e5fdf44f333ad0a91036c/public/images/dating-forum-demo.gif)
 <br> 
 Or view link here - [Screencastify](https://drive.google.com/file/d/12ria9JJ8YoEhdjWiUlAK6x_xjkOpMr-Z/view)
 
